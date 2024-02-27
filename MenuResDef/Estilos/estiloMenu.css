@@ -1,0 +1,219 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    background-color: #ECE3CE;
+    color: #4F6F52;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+}
+
+nav {
+    background-color: #3A4D39;
+    color: #ECE3CE
+}
+
+a {
+    color: #ECE3CE
+}
+
+    a:hover {
+        color: #ECE3CE
+    }
+
+i {
+    color: #ECE3CE
+}
+
+#cartItemCount {
+    background-color: #3A4D39;
+    color: #ECE3CE
+}
+
+.btn-cart {
+    transition: transform 0.3s ease-in-out;
+}
+
+    .btn-cart:hover {
+        transform: scale(1.2);
+    }
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 60px);
+    max-width:600px;
+}
+
+.modal-content {
+    margin: auto;
+}
+
+.form-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    font-size: 1rem;
+    height: calc(1.5em + 0.75rem + 2px);
+}
+
+.modal-body {
+    padding: 20px;
+    background-color: #ECE3CE;
+}
+
+.modal-footer {
+    background-color: #ECE3CE; 
+    border-top: 1px solid #3A4D39; 
+    justify-content: space-between;
+}
+
+    .modal-footer .btn-secondary {
+        color: #739072; 
+        background-color: #ECE3CE; 
+        border-color: #739072; 
+    }
+
+    .modal-footer .btn-primary {
+        background-color: #739072; 
+        border-color: #739072; 
+    }
+
+.card {
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    background-color: #ECE3CE;
+    border-color: #3A4D39;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+        height: 200px;
+        object-fit: cover;
+        transition: transform 0.3s ease-out;
+    }
+
+    .card:hover img {
+        transform: scale(1.1);
+    }
+
+.btn-primary {
+    background-color: #739072; 
+    border-color: #739072; 
+}
+
+.btn-primary:hover {
+    background-color: #536753;
+    border-color: #536753; 
+}
+
+.btn-secondary {
+    color: black; 
+    background-color: #739072; 
+    border-color: #ECE3CE;
+}
+
+.btn-secondary:hover {
+    color: white; 
+    background-color: #739072; 
+    border-color: #ECE3CE; 
+}
+
+#imageCarousel {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner {
+        height: 250px;
+    }
+}
+
+.modal-header {
+    background-color: #3A4D39;
+    color: #ECE3CE;
+    border-bottom: 1px solid #3A4D39;
+}
+
+#cartModal .modal-content {
+    border-radius: 10px;
+}
+
+#cartItemsList .list-group-item {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cartItemsList .btn-add,
+#cartItemsList .btn-subtract,
+#cartItemsList .btn-delete {
+    margin-left: 10px;
+}
+
+#cartItemsList .item-details {
+    flex-grow: 1;
+}
+
+#emptyCartMessage {
+    display: none;
+    margin-top: 20px;
+    color: #868e96;
+}
+
+.table {
+    background-color: #4F6F52;
+    color: #ECE3CE;
+}
+
+    .table th,
+    .table td {
+        border-color: #ECE3CE;
+    }
+
+#checkoutBtn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+    #checkoutBtn:hover {
+        background-color: #1e7d34;
+    }

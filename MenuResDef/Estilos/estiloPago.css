@@ -1,0 +1,178 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ECE3CE;
+    padding: 20px;
+    color: #4F6F52;
+}
+
+.btn-outline-primary {
+    border-color: #4F6F52;
+    color: #4F6F52;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #4F6F52;
+        border-color: #4F6F52;
+        color: #ECE3CE;
+    }
+
+.btn-primary {
+    background-color: #739072;
+    border-color: #739072;
+}
+
+    .btn-primary:hover {
+        background-color: #536753;
+        border-color: #536753;
+    }
+
+.titulo-panel-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo-panel {
+    color: #739072;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4F6F52;
+}
+
+.payment-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #4F6F52;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #739072;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #536753;
+    }
+
+.items-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    margin-left: 10px;
+}
+
+.quantity {
+    margin-left: 10px;
+    color: #666;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .cart-table th, .cart-table td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .cart-table th {
+        background-color: #4F6F52;
+        color: #ECE3CE;
+    }
+
+.total-container {
+    background-color: #4F6F52;
+    color: #ECE3CE;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+    .total-container .total {
+        font-size: 1.2em;
+        color: #ECE3CE;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.card-type-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.payment-form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #739072;
+}
